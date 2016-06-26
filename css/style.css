@@ -98,6 +98,10 @@ position: relative;
 #about {
   background-color: #467b9b; 
   height:300px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
 }
 
 #services {
@@ -119,7 +123,9 @@ position: relative;
 #information {
   background-color: #2e4727;
   height: 300px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 #information .panel {
   opacity: 0.85;
@@ -127,6 +133,13 @@ position: relative;
 
 #pats{
     background: url(../images/italy.png) no-repeat center center fixed; 
+      display: table;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .footer{
@@ -134,4 +147,11 @@ height: 50px;
 padding-left: 15px; 
 padding-right: 15px
 }
+
+
+
+
+
+
+
 
