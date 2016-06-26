@@ -1,0 +1,137 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+@media only screen and (min-width: 992px)  {
+h2 {
+font-family: 'Indie Flower', cursive;
+font-weight: normal;
+font-size: 36px;
+text-align: center;
+color: #000;
+margin: 0;
+padding: 0;
+}
+}
+
+@media only screen and (max-width: 991px)  {
+h2 {
+font-family: 'Indie Flower', cursive;
+font-weight: normal;
+font-size: 18pt;
+text-align: center;
+color: #000;
+margin: 0;
+padding: 0;
+}
+}
+
+@media only screen and (min-width: 992px)  {
+h3 {
+font-family: 'Poiret One', cursive;
+font-weight: normal;
+font-size: 24px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+}
+
+@media only screen and (max-width: 991px)  {
+
+h3 {
+font-family: 'Poiret One', cursive;
+font-weight: normal;
+font-size: 14pt;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+
+/* additional sections */
+#home {
+  background: url(../images/sky.jpg) no-repeat center center fixed; 
+  z-index:1;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background-color: #467b9b; 
+  height:300px;
+}
+
+#services {
+  background: url(../images/sf-back.png) no-repeat center center fixed; 
+
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background-color: #2e4727;
+  height: 300px;
+  position: relative;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#pats{
+    background: url(../images/italy.png) no-repeat center center fixed; 
+}
+
+.footer{
+height: 50px; 
+padding-left: 15px; 
+padding-right: 15px
+}
+
